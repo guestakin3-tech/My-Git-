@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mygit
+    env: docker
+    plan: starter
+    # configure persistent disk and postgres from Render dashboard or via UI
